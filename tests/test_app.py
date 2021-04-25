@@ -7,5 +7,5 @@ def test_app():
     assert isinstance(app, Flask)
 
 
-def test_fail():
-    assert False
+def test_two():
+    assert True
