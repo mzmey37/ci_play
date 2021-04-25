@@ -5,3 +5,7 @@ from ci_play.server import app
 
 def test_app():
     assert isinstance(app, Flask)
+
+
+def test_fail():
+    assert False
